@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-White: hsl(0, 0%, 100%);
+  --color-Slate-300: hsl(212, 45%, 89%);
+  --color-Slate-500: hsl(216, 15%, 48%);
+  --color-Slate-900: hsl(218, 44%, 22%);
+
+  --font-Outfit: "Outfit";
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../assets/fonts/Outfit/Outfit-VariableFont_wght.woff2") format("woff2");
+}
